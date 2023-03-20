@@ -33,5 +33,3 @@ tasks.withType(KotlinCompile) {
 tasks.named('test') {
     useJUnitPlatform()
 }
-
-assemble.dependsOn(nativeCompile)
